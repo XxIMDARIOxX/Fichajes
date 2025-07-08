@@ -1,0 +1,81 @@
+{
+  "fichajes": [
+    {
+      "id": 1,
+      "timestamp": "2025-07-07T09:00:00.000Z",
+      "tipo": "entrada",
+      "usuario": "Empleado Demo",
+      "fecha": "2025-07-07",
+      "hora": "09:00",
+      "username": "empleado1"
+    },
+    {
+      "id": 2,
+      "timestamp": "2025-07-07T15:00:00.000Z",
+      "tipo": "salida",
+      "usuario": "Empleado Demo",
+      "fecha": "2025-07-07",
+      "hora": "15:00",
+      "username": "empleado1"
+    },
+    {
+      "id": 3,
+      "timestamp": "2025-07-06T08:30:00.000Z",
+      "tipo": "entrada",
+      "usuario": "Supervisor Demo",
+      "fecha": "2025-07-06",
+      "hora": "08:30",
+      "username": "supervisor"
+    },
+    {
+      "id": 4,
+      "timestamp": "2025-07-06T14:45:00.000Z",
+      "tipo": "salida",
+      "usuario": "Supervisor Demo",
+      "fecha": "2025-07-06",
+      "hora": "14:45",
+      "username": "supervisor"
+    },
+    {
+      "id": 5,
+      "timestamp": "2025-07-05T09:15:00.000Z",
+      "tipo": "entrada",
+      "usuario": "Administrador",
+      "fecha": "2025-07-05",
+      "hora": "09:15",
+      "username": "admin"
+    },
+    {
+      "id": 6,
+      "timestamp": "2025-07-05T17:30:00.000Z",
+      "tipo": "salida",
+      "usuario": "Administrador",
+      "fecha": "2025-07-05",
+      "hora": "17:30",
+      "username": "admin"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "password123",
+      "nombre_completo": "Administrador",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "empleado1",
+      "password": "emp123",
+      "nombre_completo": "Empleado Demo",
+      "role": "employee"
+    },
+    {
+      "id": 3,
+      "username": "supervisor",
+      "password": "super456",
+      "nombre_completo": "Supervisor Demo",
+      "role": "supervisor"
+    }
+  ]
+}
